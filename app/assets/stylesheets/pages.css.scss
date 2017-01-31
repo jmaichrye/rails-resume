@@ -7,6 +7,7 @@ html, body {
   	font-size: 16px;
 }
 
+
 .header{
   background-color: #D3D3D3;
   
@@ -48,6 +49,7 @@ html, body {
 	font-family: Helvetica;
 	padding: 10px;
 	display: inline-block;
+  align: center;
 }
 .button:hover {
 	background-color:#172727;
@@ -62,6 +64,7 @@ html, body {
 .buttons{
     float: right;
     display: inline-block;
+  padding: 30px;
 }
 
 .picture{
@@ -96,42 +99,21 @@ html, body {
     font-size: 16px;
 }
 
-#inline-button {
-  margin: auto;
-}
-
-.skills{
-	background: url(../img/01.jpg) no-repeat center center;
-	height: 1000px;
-}
-
-.skillsbox{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: black;
-	font-size: 30px;
-	width: 900px;
-	margin: 100px;
-	background-color: white;
-	opacity:.75;
-	border: 2px solid grey;
-	opacity:.6;
-	border-radius: 10px;
-}
 
 .project{
 	background: url(../img/projectpic.jpg) no-repeat center center;
 	height: 1000px;
 }
 
-
+.center-buttons{
+  align: center;
+}
 
 .block{
 	display: inline-block;
 }
 
 .footer{
-	border: 2px solid #172727;
-	border-radius: 10px;
 	text-align: center;
 }
 
