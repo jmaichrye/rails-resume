@@ -14,3 +14,7 @@
 //= require jquery_ujs
 //= require turbolinks
 //= require_tree .
+		jQuery(document).ready(function($) {
+			$('.my-slider').unslider();
+		});
+
