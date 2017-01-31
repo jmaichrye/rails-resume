@@ -2,16 +2,19 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 html, body {
-  	margin: 20px;
-  	padding: 20px;
-	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+	font-family: "Helvetica Neue", Roboto, Helvetica, Arial, sans-serif;
   	font-size: 16px;
 }
 
-.header .container{
-	color: #1A7CCC;
-	color: rgb(32, 64, 86);
+.header{
+  background-color: #D3D3D3;
+  
+}
 
+.header .container{
+	color: rgb(32, 64, 86);
+  margin: center;
 }
 
 .icon{
@@ -73,41 +76,7 @@ html, body {
 	margin: 20px;
 }
 
-.seal{
-	display: inline-block;
-	padding: 50px;
-	align-self: right;
-	height: 275px;
-	width: 275px;
-}
 
-.education{
-	background: url(../img/oval.jpg) no-repeat center center;
-	height: 1000px;
-
-}
-
-.edbox{
-	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
-	color: black;
-	font-size: 30px;
-	width: 600px;
-	margin: 100px;
-	background-color:#D60D20;
-	opacity:.75;
-	border: 2px solid grey;
-	border-radius: 10px;
-}
-.edbox p{
-	margin: 5%;
-    font-weight: bold;
-}
-
-.professional{
-	background: url(../img/pattern.jpeg) no-repeat center center;
-	background-repeat: repeat;
-
-}
 
 .profbox{
 	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
