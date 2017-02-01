@@ -655,3 +655,7 @@
 	};
 
 }));
+
+$(document).ready(function () { $('.my-slider').unslider(); });
+
+$(document).on('page:load', function() { $('.my-slider').unslider();  });
